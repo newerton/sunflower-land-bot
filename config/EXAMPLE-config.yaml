@@ -5,17 +5,20 @@ app:
   terminal_colorful: false
   run_time_app: 1
   monitor_to_use: 1
-  multi_account:
-    enable: false
-    window_title: "sunflower land"
-    window_fullscreen: false
 
+time_intervals:
+  active_seed: 20
+  harvesting: 1
+  sell_crops: 20
 
 threshold:
-  default: 0.7
-
-services:
-  telegram: false
+  default: 0.8
+  crops_item: 0.75
+  buy_seeds: 0.95
+  sell_seeds: 0.99
+  button_buy_seeds: 0.97
+  button_sell_seeds: 0.97
+  menu_buttons: 0.99
 
 log:
   save_to_file: false
