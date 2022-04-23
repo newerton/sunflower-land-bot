@@ -9,7 +9,8 @@
 
 ## ⚠️ Warning
 
-I am not responsible for any penalties incurred by those who use the bot, use it at your own risk.
+### I am not responsible for any penalties incurred by those who use the bot, use it at your own risk.
+## This BOT is totally secure, it does not ask for your metamask password, nor your private key.
 
 ## 📌 Glossary
 

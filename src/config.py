@@ -27,3 +27,14 @@ class Config:
             configExample = None
 
         return configExample
+
+    def readFarmFile(self):
+        try:
+            file = open("./config/farm.yaml", 'r', encoding='utf8')
+        except FileNotFoundError:
+            print(Fore.RED + 'Error: farm.yaml file not found inside /config folder' + Fore.RESET)
+            exit()
+
+        with file as s:
+            stream = s.read()
+        return yaml.safe_load(stream)
