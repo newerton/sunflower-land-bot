@@ -8,7 +8,6 @@ app:
 
 time_intervals:
   active_seed: 20
-  harvesting: 1
   sell_crops: 20
 
 threshold:
@@ -20,6 +19,9 @@ threshold:
   button_sell_seeds: 0.97
   menu_buttons: 0.99
 
+services:
+  telegram: false
+  
 log:
   save_to_file: false
   console: false

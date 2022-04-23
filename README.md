@@ -66,7 +66,10 @@ python index.py
 
 The bot doesn't change any of the game's source code, it just takes a screenshot of the game's screen to find the buttons and simulates mouse movements.
 
-### ⚠️ Some settings can be changed in the /config/config.yaml file, don't forget to restart the bot if you change the settings, some changes in the /config/config.yaml file may cause the bot to stop, such as activating the telegram when the bot is running.
+⚠️ Some settings can be changed in the /config/config.yaml file, don't forget to restart the bot if you change the settings, some changes in the /config/config.yaml file may cause the bot to stop, such as activating the telegram when the bot is running. 
+
+The waiting time for harvesting the sunflower is 1 minute, and for the other plants it is 5 minutes. 
+
 ## 🧪 <a id="tests"></a>Tests
 **Desktop Medium Profile**  
 Intel i5-3570k @ 3.4Ghz, 24GB RAM  
@@ -87,16 +90,16 @@ Python 3.8.10
 {
   crops:
     [
-      { position: 0, enable: true, title: "sunflower", planting_time: 60, sell: true },
-      { position: 1, enable: true, title: "potato", planting_time: 300, sell: true },
-      { position: 2, enable: true, title: "pumpkin", planting_time: 1800, sell: true },
-      { position: 3, enable: true, title: "carrot", planting_time: 3600, sell: true },
-      { position: 4, enable: true, title: "cabbage", planting_time: 7200, sell: true },
-      { position: 5, enable: true, title: "beetroot", planting_time: 14400, sell: true },
-      { position: 6, enable: true, title: "cauliflower", planting_time: 28800, sell: true },
-      { position: 7, enable: false, title: "parsnip", planting_time: 43200, sell: false },
-      { position: 8, enable: false, title: "radish", planting_time: 86400, sell: false },
-      { position: 9, enable: false, title: "wheat", planting_time: 86400, sell: false },
+      { position: 0, enable: true, title: "sunflower", sell: true },
+      { position: 1, enable: true, title: "potato", sell: true },
+      { position: 2, enable: true, title: "pumpkin", sell: true },
+      { position: 3, enable: true, title: "carrot", sell: true },
+      { position: 4, enable: true, title: "cabbage", sell: true },
+      { position: 5, enable: true, title: "beetroot", sell: true },
+      { position: 6, enable: true, title: "cauliflower", sell: true },
+      { position: 7, enable: false, title: "parsnip", sell: false },
+      { position: 8, enable: false, title: "radish", sell: false },
+      { position: 9, enable: false, title: "wheat", sell: false },
     ],
   forest: [],
   water: [],
