@@ -2,7 +2,7 @@ autopep8==1.6.0
 colorama==0.4.4
 deepdiff==5.7.0
 mss==6.1.0
-numpy==1.21.4
+numpy==1.22.0
 opencv-python==4.5.4.60
 packaging==21.3
 pyclick==0.0.2
