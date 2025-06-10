@@ -8,4 +8,4 @@ packaging==21.3
 pyclick==0.0.2
 python_telegram_bot==13.11
 PyYAML==6.0
-requests==2.32.0
+requests==2.32.4
